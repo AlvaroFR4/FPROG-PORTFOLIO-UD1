@@ -1,4 +1,10 @@
-# act01_hello.py
-name = input("Your name / Tu nombre: ")
-print("Hello,", name)
-print(f"¡Hola, {name}!")
+# INPUT (Entrada)
+nombre = input("Your name / Tu nombre: ")
+
+# PROCESS (Proceso)
+mensaje_es = f"¡Hola, {nombre}!"
+mensaje_en = f"Hello, {nombre}!"
+
+# OUTPUT (Salida)
+print(mensaje_es)
+print(mensaje_en)
